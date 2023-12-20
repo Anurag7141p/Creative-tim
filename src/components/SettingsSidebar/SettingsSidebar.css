@@ -1,0 +1,19 @@
+.icon-bar {
+  position: fixed;
+  top: 25%;
+  height: 60px;
+  width: 70px;
+  background: rgba(166, 166, 166, 0.6);
+  right: 0;
+  border-radius: 11px 0 0 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-icon{
+
+    width: 39px;
+    height: 39px;
+    color: white;
+}

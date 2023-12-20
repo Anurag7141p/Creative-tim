@@ -1,0 +1,103 @@
+.data-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-list {
+  width: 250px;
+  height: 160px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.3);
+  padding: 0px 20px;
+  background-color: rgb(244, 242, 242);
+  margin: 70px 0 0 50px;
+  color: #999999;
+  position: relative;
+  z-index: -1;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-box {
+  width: 90px;
+  height: 90px;
+  background-color: orange;
+  text-align: center;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  transform: translateY(-20px);
+}
+
+.data-icons {
+  width: 50px;
+  height: 90px;
+  color: white;
+}
+
+.data-details {
+  padding: 10px 5px 0 0;
+}
+
+.data-details h2 {
+  color: #3c4858;
+  font-weight: 200;
+  padding-top: 10px;
+  font-size: 29px;
+  float: right;
+  font-family: "Roboto", sans-serif;
+}
+
+.data-details h3 {
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.card-latest-updates a {
+  display: flex;
+  align-items: center;
+  padding: 15px 0 0 8px;
+  text-decoration: none;
+}
+
+.card-latest-updates .tri-icon {
+  font-size: 22px;
+  color: red;
+}
+
+.card-latest-updates h5 {
+  font-size: 17px;
+  font-weight: 100;
+  text-transform: capitalize;
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.other-updates .icons {
+  color: #999999;
+  font-size: 22px;
+}
+
+.other-updates h5 {
+  font-size: 15px;
+  color: #999999;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1250px) {
+  .data-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .data-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

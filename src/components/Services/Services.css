@@ -1,0 +1,72 @@
+.service-h1 {
+  margin: 50px 0 0 40px;
+  font-family: "Roboto", sans-serif;
+
+  text-transform: capitalize;
+  color: #3c4858;
+  font-weight: 300;
+}
+
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.card {
+  width: 340px;
+  height: 370px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.3);
+  padding: 0px 15px;
+  background-color: rgb(244, 242, 242);
+  margin: 100px 0 0 50px;
+  color: #999999;
+}
+
+.img-box {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  transform: translateY(-40px);
+}
+
+.img-box img {
+  width: 310px;
+  height: 200px;
+  border-radius: 9px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  padding: 10px 10px;
+  text-align: center;
+  transform: translateY(-200px);
+}
+
+.content h2 {
+  color: #3c4858;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 23px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 10px;
+}
+
+
+@media (max-width: 1250px) {
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}

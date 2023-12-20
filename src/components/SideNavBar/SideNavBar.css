@@ -1,0 +1,96 @@
+.nav-upper {
+  background-image: linear-gradient(
+      rgba(203, 65, 54, 0.9),
+      rgba(203, 65, 54, 0.9)
+    ),
+    url("https://demos.creative-tim.com/bs3/material-dashboard-pro/assets/img/sidebar-1.jpg");
+
+  background-size: cover;
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  padding-left: 35px;
+  padding-top: 30px;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.nav-brand img {
+  width: 60px;
+  padding: 0 5px;
+}
+
+.break-point {
+  width: auto;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.nav-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  text-transform: capitalize;
+  color: var(--text-color);
+  font-size: 14px;
+  gap: 1.2rem;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-profile img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.nav-menu {
+  display: grid;
+}
+
+.nav-menu {
+  grid-template-rows: repeat(7, 1fr);
+  margin-top: 50px;
+}
+
+.menu-item {
+  height: 57px;
+  color: var(--light);
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  gap: 1.2rem;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 19px;
+}
+
+.list-icon {
+  font-size: 25px;
+}
+
+.grid {
+  display: grid;
+  /* margin-left: 20px; */
+}
+
+.grid-three-cols {
+  grid-template-columns: 0.5fr 3fr 1fr;
+}
+
+.grid-two-cols {
+  grid-template-columns: 1fr 4fr;
+}
+
+.all-content {
+  background-color: #eeeeee;
+  height: 100vh;
+}
